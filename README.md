@@ -69,6 +69,6 @@ Al ejecutar "ghostTests.js" comienza el proceso de implementación de cada uno d
 ------------------------------------------------------------------------------------------------------------------------------------
 
 ### Advertencia:
-Ghost tiene configurado un límite de inicio de sesión de 100 intentos por minuto. Al haber contemplado en los escenarios míltiples inicios de sesión, es posible que se bloquee al cumplirse el límite de intentos permitidos. 
+Ghost tiene configurado un límite de inicio de sesión de 100 ingresos por hora. Al realizar multiples inicios de sesión para los diferentes escenarios, podría obtener un error ya que la aplicación Ghost no lo dejará hacer log in. En caso de obtener este error puede esperar una hora o borrar de nuevo la base de datos (ruta: content/data), detener la aplicación (ghost stop) e iniciarla nuevamente (ghost start).
 
-Los pros y contras de la herramienta se encuentran en la wiki del repositorio.
+En la wiki del repositorio podrá encontrar pros y contras del uso de la herramienta cypress junto con un vídeo resultado de la ejecución realizada sobre la aplicación Ghost (https://github.com/VivianaReyV/Ghost_Cypress/wiki).
