@@ -19,8 +19,8 @@ context('Actions', () => {
   })
 
   // Data
-  const userName = 'test@test.com';
-  const userPassword = 'test123456';
+  const userName = 'usuario@ghost.com';
+  const userPassword = 'Usuario1234567';
   const textTest = 'Post creation test';
   const textTest2 = 'post content';
   const textTest3 = 'Page creation test';
