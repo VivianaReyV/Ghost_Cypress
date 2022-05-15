@@ -117,6 +117,23 @@ Al ejecutar las pruebas en la nueva versión inicialmente, sin realizar ajustes 
 ### Pruebas VRT
 Las pruebas de regresión consisten en mirar hacia el pasado y comparar el estado actual con el objetivo de asegurar que el estado actual es mejor o igual que el anterior. En este caso las pruebas de regresion visual comparan la interfaz gráfica en diferentes pasos para buscar cambios en las versiones.
 
+Para realizar estas pruebas, se tuvieron en cuenta las siguientes funcionalidades:
+1. Iniciar sesión
+2. Crear post
+3. Listar posts
+4. Filtrar posts
+5. Crear page
+6. Listar pages
+7. Filtrar pages
+8. Change navigation
+
+Las cuales se revisaron mediante los siguientes escenarios:
+1. Habiendo un usuario que haga login, crear page, revisar y verificar que la page creada se encuentre publicada en la lista de pages, filtrar lista por "publicado", verificar que la page se encuentre en la lista
+2. Habiendo un usuario que haga login, crear page, configurar page para publicar en otro momento con hora erronea, validar que aparezca error
+3. Habiendo un usuario que haga login, crear post, revisar y verificar que el post creado se encuentre publicado en la lista de posts, filtrar lista de post por "publicado" y verificar que el post se encuentre en la lista
+4. Habiendo un usuario que haga login, crear post, configurar post para publicar en otro momento con hora erronea, validar que aparezca error
+5. Habiendo un usuario que haga login, ir a configuración del sitio y dar click en la opción "navigate",  intentar crear un navigate item sin nombre, verificar que genere error
+
 ### Resultados VRT:
 Para ver los resultados de las pruebas VRT de las dos versiones, es necesario abrir en el naveagador el index.html ubicado en la raiz del repositorio. Alli encontrará los 5 escenarios probados en Cypress, con cada captura de pantalla en los pasos ejecutados de las pruebas, dentro de cada captura se veran los resultados de comparación arrojados por Resemble, con el detalle de cada uno.
 
