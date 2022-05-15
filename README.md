@@ -107,7 +107,7 @@ Ya habiendo ejecutado la aplicación Ghost, es necesario instalar la herramienta
 * Desde la raiz del directorio creado, abrir la terminal y ejecutar los comandos:
     - "npm install -g cypress" para instalar la herramienta en el directorio
     - "cypress open" para abrir la interfaz gráfica de cypress
-* Una vez en la interfaz gráfica, aparecerá 1 test "ghostTests.js" en la pestaña "Integration Tests". Seleccionar el test y ejecutar.
+* Una vez en la interfaz gráfica, aparecerá 1 test "ghostTests2.js" en la pestaña "Integration Tests". Seleccionar el test y ejecutar.
 
 Al ejecutar "ghostTests.js" comienza el proceso de implementación de cada uno de los escenarios descritos anteriormente. En el panel izquierdo de la interfaz se puede observar el proceso que se va desarrollando y el resultado de cada uno de los test que se van ejecutando.
 
