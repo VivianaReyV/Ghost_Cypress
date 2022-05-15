@@ -120,4 +120,4 @@ Las pruebas de regresión consisten en mirar hacia el pasado y comparar el estad
 ### Resultados VRT:
 Para ver los resultados de las pruebas VRT de las dos versiones, es necesario abrir en el naveagador el index.html ubicado en la raiz del repositorio. Alli encontrará los 5 escenarios probados en Cypress, con cada captura de pantalla en los pasos ejecutados de las pruebas, dentro de cada captura se veran los resultados de comparación arrojados por Resemble, con el detalle de cada uno.
 
-URL: https://github.com/VivianaReyV/Ghost_Cypress
+URL: https://vivianareyv.github.io/Ghost_Cypress/
